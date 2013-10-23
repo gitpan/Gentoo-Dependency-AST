@@ -6,10 +6,11 @@ BEGIN {
   $Gentoo::Dependency::AST::Node::Group::And::AUTHORITY = 'cpan:KENTNL';
 }
 {
-  $Gentoo::Dependency::AST::Node::Group::And::VERSION = '0.001000';
+  $Gentoo::Dependency::AST::Node::Group::And::VERSION = '0.001001';
 }
 
 # ABSTRACT: A Group of dependencies of which, all are required
+
 
 use parent 'Gentoo::Dependency::AST::Node';
 
@@ -19,7 +20,7 @@ __END__
 
 =pod
 
-=encoding utf-8
+=encoding UTF-8
 
 =head1 NAME
 
@@ -27,7 +28,18 @@ Gentoo::Dependency::AST::Node::Group::And - A Group of dependencies of which, al
 
 =head1 VERSION
 
-version 0.001000
+version 0.001001
+
+=begin MetaPOD::JSON v1.1.0
+
+{
+    "namespace":"Gentoo::Dependency::AST::Node::Group::And",
+    "interface":"class",
+    "inherits":"Gentoo::Dependency::AST::Node"
+}
+
+
+=end MetaPOD::JSON
 
 =head1 AUTHOR
 

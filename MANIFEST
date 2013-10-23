@@ -8,6 +8,8 @@ META.json
 META.yml
 README
 dist.ini
+layout/self_structure.dot
+layout/self_structure.png
 lib/Gentoo/Dependency/AST.pm
 lib/Gentoo/Dependency/AST/Node.pm
 lib/Gentoo/Dependency/AST/Node/Dependency.pm
@@ -24,6 +26,7 @@ maint-travis-ci/merge_travis_yml.pl
 maint-travis-ci/script.pl
 maint-travis-ci/sterilize_env.pl
 maint-travis-ci/sync_tree.pl
+maint-travis-ci/yamls/sterile.mkdn
 maint-travis-ci/yamls/sterile.yaml
 perlcritic.rc
 t/00-compile.t

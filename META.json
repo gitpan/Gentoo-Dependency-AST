@@ -62,39 +62,39 @@
    "provides" : {
       "Gentoo::Dependency::AST" : {
          "file" : "lib/Gentoo/Dependency/AST.pm",
-         "version" : "0.001000"
+         "version" : "0.001001"
       },
       "Gentoo::Dependency::AST::Node" : {
          "file" : "lib/Gentoo/Dependency/AST/Node.pm",
-         "version" : "0.001000"
+         "version" : "0.001001"
       },
       "Gentoo::Dependency::AST::Node::Dependency" : {
          "file" : "lib/Gentoo/Dependency/AST/Node/Dependency.pm",
-         "version" : "0.001000"
+         "version" : "0.001001"
       },
       "Gentoo::Dependency::AST::Node::Group::And" : {
          "file" : "lib/Gentoo/Dependency/AST/Node/Group/And.pm",
-         "version" : "0.001000"
+         "version" : "0.001001"
       },
       "Gentoo::Dependency::AST::Node::Group::NotUse" : {
          "file" : "lib/Gentoo/Dependency/AST/Node/Group/NotUse.pm",
-         "version" : "0.001000"
+         "version" : "0.001001"
       },
       "Gentoo::Dependency::AST::Node::Group::Or" : {
          "file" : "lib/Gentoo/Dependency/AST/Node/Group/Or.pm",
-         "version" : "0.001000"
+         "version" : "0.001001"
       },
       "Gentoo::Dependency::AST::Node::Group::Use" : {
          "file" : "lib/Gentoo/Dependency/AST/Node/Group/Use.pm",
-         "version" : "0.001000"
+         "version" : "0.001001"
       },
       "Gentoo::Dependency::AST::Node::TopLevel" : {
          "file" : "lib/Gentoo/Dependency/AST/Node/TopLevel.pm",
-         "version" : "0.001000"
+         "version" : "0.001001"
       },
       "Gentoo::Dependency::AST::State" : {
          "file" : "lib/Gentoo/Dependency/AST/State.pm",
-         "version" : "0.001000"
+         "version" : "0.001001"
       }
    },
    "release_status" : "stable",
@@ -109,7 +109,7 @@
          "web" : "https://github.com/kentfredric/Gentoo-Dependency-AST"
       }
    },
-   "version" : "0.001000",
+   "version" : "0.001001",
    "x_BuiltWith" : {
       "modules" : {
          "Carp" : "1.32",
@@ -117,14 +117,14 @@
          "Data::Dump" : "1.22",
          "Dist::Zilla::PluginBundle::Author::KENTNL" : "2.000000",
          "Dist::Zilla::PluginBundle::Author::KENTNL::Lite" : "1.7.2",
-         "File::Spec" : "3.44",
+         "File::Spec" : "3.40",
          "IO::Handle" : "1.35",
          "IPC::Open3" : "1.15",
          "Module::Build" : "0.4007",
          "Pod::Coverage::TrustPod" : "0.100002",
          "Test::CPAN::Changes" : "0.25",
          "Test::CPAN::Meta" : "0.23",
-         "Test::Kwalitee" : "1.15",
+         "Test::Kwalitee" : "1.17",
          "Test::More" : "0.99",
          "Test::Pod" : "1.48",
          "Test::Pod::Coverage" : "1.08",
@@ -148,7 +148,7 @@
          "osname" : "linux"
       },
       "platform" : "linux",
-      "uname" : "Linux 3.11.5-gentoo x86_64 GenuineIntel GNU/Linux"
+      "uname" : "Linux 3.11.6-gentoo x86_64 GenuineIntel GNU/Linux"
    },
    "x_Dist_Zilla" : {
       "perl" : {
